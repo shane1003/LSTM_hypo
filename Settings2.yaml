@@ -1,0 +1,23 @@
+FC:
+- 3
+- 3
+LSTM:
+- 15
+- 15
+- 15
+SEED: 1
+batch: 256
+data_options:
+  CGM: 0
+  CHO: 0
+  Insulin: 0
+dropout: 0.5
+epoch: 1000
+input_size: 3
+learning_rate: 0.0001
+num_layers:
+- 2
+- 1
+- 1
+output_window: 6
+stride: 1
