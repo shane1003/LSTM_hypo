@@ -8,7 +8,7 @@ LSTM:
 SEED: 1
 batch: 128
 data_options:
-  CGM: 0
+  CGM: 3
   CHO: 0
   Insulin: 0
 dropout: 0.3
